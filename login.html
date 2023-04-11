@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        width: 400px;
+        position: relative;
+        left: 450px;
+        background-color: cyan;
+      }
+nav div{
+width: 1000px;
+text-align: right;
+margin: auto;
+}
+      label {
+        font-size: 25px;
+        display: flex;
+        display: inline;
+        padding-right: 0px;
+        padding-left: 0%;
+      }
+      body {
+        background-color: cyan;
+      }
+      button {
+        background-color: blueviolet;
+        color: white;
+        width: 200px;
+        height: 50px;
+        border: none;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        position: relative;
+        left: 60px;
+    font-weight: 700;
+    border-radius: 7px;   
+      }
+      form input[type="text"],
+      form input[type="User Name"],
+      form input[type="Password"],
+      select,
+      textarea {
+        width: 150%;
+        height: 30px;
+      }
+      h1 {
+        width: 150%;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: pink;
+      }
+      a:hover {
+        text-decoration: underline;
+        font-weight: 600;
+      }
+      nav {
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+      <a href="forms.html">Students registration page</a></div>
+    </nav>
+    <main>
+      <form>        
+          <h1>STUDENT PORTAL</h1>
+        <div>
+          <label form="User Name">User Name</label><br />
+          <input type="text" placeholder="Enter your user name" />
+        </div>
+        <div>
+          <label form="pPassword">Password</label><br />
+          <input type="text" placeholder="Enter Password" />
+        </div>
+        <button>LOG IN</button>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my forms document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>  
+   <nav>
+   <div><a href="login.html">Student Login</a></div>
+</nav>
+    <main>
+    <form>
+        <h1>Student Registration Form</h1>
+        <div>
+            <label form="First name">First name</label>
+            <input type="text" placeholder="Enter your first name">
+        </div>
+
+            <div>
+                <label form="Last name">Last name</label>
+                <input type="text" placeholder="Enter your Last name">
+            </div>
+                <div>
+                    <label form="Email">Email</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                    <div>
+                        <label form="Phone number">Phone number</label>
+                        <input type="tel" placeholder="Enter your phone number">
+                    </div>
+                        <div>
+                            <label for="">gender</label>
+                            <input type="radio" value="Male" name="gender">Male
+                            <input type="radio" value="Female" name="gender">Female
+                        </div>
+                        <div>
+                            <label form="DOB">Date of birth</label>
+                            <input type="Date" name="DOB">
+                        </div>
+                        <div>
+                            <label form="Address">Address</label>
+                            <textarea name="Address" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <label form="City">City</label>
+                            <input type="text" name="City">
+                        </div>
+                        <div>
+                            <label form="Area">Area pin</label>
+                            <input type="number" name="Area">
+                        </div>
+                        <div>
+                            <label for="">Country</label>
+                            <select name="Country">
+                            <option hidden value="">Select country</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Congo">Congo</option>
+                        </select>
+                    </div>
+                        <div>
+                        <label for="">State</label>
+                        <select name="State">
+                        <option hidden value="">Select state</option>
+                        <option value="imo">Imo</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="Benue">Benue</option>
+                        <option value="Adamawa">Adamawa</option>
+                        <option value="Abuja">Abuja</option>
+                        <option value="Ibadan">Ibadan</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="Qualification">Qualification</label>
+                    <input type="text" name="Qualification">
+                </div>
+
+                <div class="special">
+                <label for="Specialization">Specialization</label>
+                <div>
+                <input type="checkbox" name="Specialization" value="Accounting">Accounting
+                <br>
+                <input type="checkbox" name="Specialization" value="Computer Science">Computer Science
+                <br>
+                <input type="checkbox" name="Specialization" value="Chemistry">Chemistry
+                    <br>
+                <input type="checkbox" name="Specialization" value="Finance">Finance </div> 
+                </div>
+                <div>
+                <label for="Password">Password</label>
+                <input type="password" name="Password">
+            </div>
+            <button>Register</button>
+   </form>
+    </main>
+</main>
+</body>
+</html>
